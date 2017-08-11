@@ -1,0 +1,51 @@
+﻿#
+# exclude all dot files except .gitignore
+# 排除所有.文件 .gitignore除外
+# .gitignore文件不排除
+# 
+###############################################################################
+.*
+!.gitignore
+!.gitattributes
+
+# 
+# 生成文件
+# 
+###############################################################################
+*.ilk
+*.obj
+*.log
+*.tlb
+*.tlog
+*.tlh
+*.exp
+*.pdb
+*.idb
+*.pch
+*.lastbuildstate
+*.manifest
+bin/*/*/*.rc
+bin/*/*/*.res
+*_[Ii].[Cc]
+*_[Ii].[Hh]
+*_[Pp].[Cc]
+*_[Pp].[Hh]
+*.opensdf
+*.dll
+*.lib
+*.exe
+*.unsuccessfulbuild
+*.cache
+*.tli
+*.inf
+*.RCa09312
+*.RCa02268
+
+# 
+# VS工程文件
+# 
+###############################################################################
+*.aps
+*.sdf
+*.user
+ipch
