@@ -36,7 +36,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\WTL91_5321_Final\Include\;$(IncludePath);</IncludePath>
+    <IncludePath>D:\ProgramFilesMe\WTL10_7294\Include\;$(IncludePath);</IncludePath>
+    <OutDir>..\Bin\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>..\Bin\$(PlatformName)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
